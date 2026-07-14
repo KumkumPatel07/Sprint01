@@ -4,7 +4,7 @@
     margin:0;
     box-sizing:border-box;
 }
-    
+  
 nav{
     position:sticky;
     top:0;
@@ -13,14 +13,15 @@ nav{
     justify-content:space-between;
     align-items: center;
     overflow: hidden;
-    background: #1e293b;
+    background: #3c547b;
     color:white;
     overflow: visible;
 }
 
-.logo img{
-    width:50px;
-    height:50px;
+.logo{
+    color:#fff;
+    font-size:14px;
+    font-weight:bold;
 }
 
 nav h1{
@@ -35,15 +36,18 @@ nav ul{
     list-style: none;
 }
 
-nav ul li{
-    position: relative;
+.nav-links{
+    display:flex;
+    list-style:none;
+    gap:25px;
 }
 
-nav ul li a{
-    color: white;
+.nav-links a{
+    color:white;
     text-decoration: none;
-    font-weight: bold;
+    font-size: 16px;
 }
+
 .dropdown{
     position: relative;
 }
@@ -167,6 +171,8 @@ nav a{
 
 .card:hover{
     transform:translateY(-10px);
+    background: rgb(135, 135, 193);
+    color: white;
 }
 
 .icon{
@@ -180,6 +186,11 @@ nav a{
 
 .card p{
     color: grey;
+
+}
+
+.card:hover p{
+    color: white;
 }
 
 
@@ -220,7 +231,32 @@ footer{
     background:#1e293b;
     color:white;
     text-align: center;
-    padding:20px;
+    padding: 30px 20px;
+}
+
+.footer-container h2{
+    margin-bottom:10px;
+}
+
+.footer-container p{
+    margin:10px 0;
+}
+
+.social-icons {
+    margin:20px 0;
+}
+
+.social-icons a{
+    color:white;
+    font-size: 24px;
+    margin:0 12px;
+    text-decoration:none;
+    transition:0.3s;
+}
+
+.social-icons a:hover{
+    color:#38bdf8;
+    transform:translateY(-5px);
 }
 
 .dark{
