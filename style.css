@@ -4,29 +4,29 @@
     margin:0;
     box-sizing:border-box;
 }
-  
+
 nav{
+    height: 70px;
     position:sticky;
     top:0;
-    padding: 15px 30px;
+    padding:0 40px;
     display:flex;
     justify-content:space-between;
     align-items: center;
     overflow: hidden;
-    background: #3c547b;
+    background: #1e3a81;
     color:white;
     overflow: visible;
 }
 
-.logo{
-    color:#fff;
-    font-size:14px;
-    font-weight:bold;
+.logo img{
+    width:65px;
+    height:65px;
 }
 
 nav h1{
     color:white;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
 }
 nav ul{
@@ -48,37 +48,6 @@ nav ul{
     font-size: 16px;
 }
 
-.dropdown{
-    position: relative;
-}
-.dropdown-content{
-    display:none;
-    position: absolute;
-    top:100%;
-    left:0;
-    background-color: white;
-    min-width: 250px;
-    padding: 0;
-    
-}
-
-.dropdown-content li{
-   
-    padding: 10px;
-}
-
-.dropdown-content li a{
-    color: black;
-    text-decoration: none;
-    
-    display:block;
-  
-}
-
-.dropdown:hover .dropdown-content{
-    display:block;
-}
-
 nav a{
     color:white;
     text-decoration: none;
@@ -98,7 +67,7 @@ nav a{
     padding: 12px 30px;
     margin-top:20px;
     border:none;
-    background:blue;
+    background:#2563eb;
     color:white;
     cursor:pointer;
 }
@@ -112,14 +81,6 @@ nav a{
     margin:50px auto;
     /*padding:60px;
     text-align: center;*/
-}
-
-.servive-container{
-    display:flex;
-    justify-content: center;
-    gap:20px;
-    margin-top: 30px;
-    flex-wrap:wrap;
 }
 
 .about{
@@ -152,8 +113,6 @@ nav a{
     margin-bottom: 30px;
 }
 
-
-
 .about-btn:hover{
     background:#1d4ed8;
 }
@@ -162,7 +121,7 @@ nav a{
     width:300px;
     padding: 25px;
     text-align: center;
-    background:white;
+    background:#ffffff;
     border-radius: 15px;
     box-shadow:0 8px 20px rgba(0,0,0,.2);
     transition:.3s;
@@ -228,7 +187,7 @@ button:hover{
 
 
 footer{
-    background:#1e293b;
+    background:#0f172a;
     color:white;
     text-align: center;
     padding: 30px 20px;
