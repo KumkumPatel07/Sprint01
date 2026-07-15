@@ -1,4 +1,7 @@
-
+body{
+ color: #1f2937;
+ background: #f8fafc;
+}
 *{
     padding:0;
     margin:0;
@@ -13,15 +16,8 @@ nav{
     display:flex;
     justify-content:space-between;
     align-items: center;
-    overflow: hidden;
-    background: #1e3a81;
+    background: #1e3a8a;
     color:white;
-    overflow: visible;
-}
-
-.logo img{
-    width:65px;
-    height:65px;
 }
 
 nav h1{
@@ -187,7 +183,7 @@ button:hover{
 
 
 footer{
-    background:#0f172a;
+    background:#1e3a8a;
     color:white;
     text-align: center;
     padding: 30px 20px;
