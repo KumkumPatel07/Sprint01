@@ -23,6 +23,8 @@
             <li><a href="#">Services</a></li>   
             <li><a href="#">Contact</a></li>  
         </ul>
+        <img src="images/moon.png" id="icon">
+
     </nav>
 
     <section class="hero">
@@ -88,19 +90,19 @@
 
             <div class="social-icons">
                 <a href="https://www.linkedin.com/company/prodesk-it" target="_blank" aria-label="LinkedIn">
-                <i class="fa-brands fa-linkedin"></i>
+                <i class="fab fa-linkedin"></i>
             </a>
 
             <a href="https://github.com/" target="_blank" aria-label="GitHub">
-                <i class="fa-brands fa-github"></i>
+                <i class="fab fa-github"></i>
             </a>
 
             <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
-                <i class="fa-brands fa-instagram"></i>
+                <i class="fab fa-instagram"></i>
             </a>
 
             <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
-                <i class="fa-brands fa-facebook"></i>
+                <i class="fab fa-facebook"></i>
             </a>
         </div>
          <p>&copy &nbsp 2026 Prodesk IT.&nbsp All Rights Reserved.</p>
@@ -111,4 +113,15 @@
     
 </body>
 <script src="script.js"></script>
+<script>
+     var icon = document.getElementById("icon");
+     icon.onclick = function(){
+    document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")){
+        icon.src = "images/sun.png"
+    }else{
+        icon.src = "images/moon.png"
+    }
+    }
+</script>
 </html>
