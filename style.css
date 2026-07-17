@@ -122,32 +122,6 @@ nav a:hover{
     font-size:20px;
 }
 
-.hero{
-    min-height:80vh;
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-
-    padding:80px 20px;
-
-    background:rgba(173,216,230,.15);
-    border:1px solid rgba(255,255,255,.2);
-}
-
-.hero h1{
-    font-size:48px;
-    margin-bottom:20px;
-}
-
-.hero p{
-    max-width:700px;
-    line-height:1.8;
-    margin-bottom:30px;
-    font-size:20px;
-}
-
 .hero button{
     padding: 12px 30px;
     margin-top:20px;
