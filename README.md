@@ -2,15 +2,23 @@
 
 ## Description
 A responsive landing page built using **HTML, CSS And JavaScript** with logo, navigation links and a dark mode toggle.
-This Project was created for learning purposes as a part of the Prodesk IT Software Developer Trainee.
+This Project was created for learning and intership purpose as a part of the Prodesk IT Software Developer Trainee.
 
 ## 🚀 Live Demo
-**Live URL:**
+**Live URL:https://kumkumpatel07.github.io/Sprint01/**
 
 ## 📂GitHub Repository
-
+  **https://github.com/KumkumPatel07/Sprint01**
+  
 ## 📸Screenshot
-
+  ![About Section](images/About.jpeg)
+  ![Cards with Fototer](images/Cards_with_Footer.jpeg)
+  ![Navbar with Hero Section](images/Navbar_with_Hero_Section.jpeg)
+  ![Mobile view of Page](images/Mobile_view.jpeg)
+  ![About section in mobile](images/M_About.jpeg)
+  ![Cards in mobile view](images/M_Cards.jpeg)
+  ![Contact section and Footer in Mobile](images/M_Contact_with_footer.jpeg)
+    
 ## ✨Features
 -Responsive design
 -Professional Navigation Bar
@@ -32,6 +40,10 @@ project/
 |---style.css
 |---script.js
 |---images/
+|    |---fav.png
+|    |---logo.png
+|---README.md
+|---prompts.md
 
 
 ```
