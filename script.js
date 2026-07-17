@@ -13,3 +13,10 @@ icon.onclick = function () {
     icon.classList.add("fa-moon");
   }
 };
+
+const menuToggle = document.getElementById("menu-toggle");
+const navLinks = document.getElementById("nav-links");
+
+manuToggle.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});

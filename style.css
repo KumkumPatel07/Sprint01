@@ -32,13 +32,10 @@ nav{
     position:sticky;
     top:0;
     z-index:1000;
-
     display:flex;
     justify-content:space-between;
     align-items:center;
-
-    padding:12px 40px;
-
+    padding:20px 30px;
     background:var(--secondary);
     color:white;
 }
@@ -258,14 +255,18 @@ button:hover{
 
 .contact{
     background:var(--bg);
+    padding: 60px 20px;
+    text-align: center;
 }
 
 .contact h2{
     margin-bottom: 15px;
+    font-size: 24px;
 }
 
 .contact p{
     margin:10px;
+    font-size: 18px;
 }
 
 footer{
@@ -285,13 +286,18 @@ footer{
 }
 
 .social-icons {
-    margin:20px 0;
+     margin:20px 0; 
+    display: flex;
+    gap:24px;
+    align-items: center;
+    justify-content: center;
    
 }
 
 .social-icons a{
     color:white;
-    padding-left:50px;
+    font-size: 24px;
+    padding-left: 0;
     
 }
 
@@ -304,8 +310,23 @@ footer{
     background: #121212;
     color:white;
 }
+
+.menu-toggle{
+    display: none;
+    font-size: 28px;
+    background: none;
+    border:none;
+    color:white;
+    cursor:pointer;
+}
+
 @media (max-width:768px){
 
+    .menu-toggle{
+        display: block;
+
+    }
+   
     nav{
         flex-direction:column;
         gap:15px;
@@ -313,10 +334,19 @@ footer{
     }
 
     .nav-links{
+        display:none;
+        width:100%;
+        text-align: center;
+        margin-top: 10px;
+
         flex-direction:column;
         align-items:center;
         gap:15px;
 
+    }
+
+    .nav-links.active{
+        display: flex;
     }
 
     .hero h1{
