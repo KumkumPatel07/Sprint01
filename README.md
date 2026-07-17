@@ -9,15 +9,15 @@ This Project was created for learning and intership purpose as a part of the Pro
 
 ## 📂GitHub Repository
   **https://github.com/KumkumPatel07/Sprint01**
-
+  
 ## 📸Screenshot
-  ![About Section](About.jpeg)
-  ![Cards with Fototer](Cards_with_Footer.jpeg)
-  ![Navbar with Hero Section](Navbar_with_Hero_Section.jpeg)
-  ![Mobile view of Page](Mobile_view.jpeg)
-  ![About section in mobile](M_About.jpeg)
-  ![Cards in mobile view](M_Cards.jpeg)
-  ![Contact section and Footer in Mobile](M_Contact_with_footer.jpeg)
+  ![About Section](images/About.jpeg)
+  ![Cards with Fototer](images/Cards_with_Footer.jpeg)
+  ![Navbar with Hero Section](images/Navbar_with_Hero_Section.jpeg)
+  ![Mobile view of Page](images/Mobile_view.jpeg)
+  ![About section in mobile](images/M_About.jpeg)
+  ![Cards in mobile view](images/M_Cards.jpeg)
+  ![Contact section and Footer in Mobile](images/M_Contact_with_footer.jpeg)
     
 ## ✨Features
 -Responsive design
